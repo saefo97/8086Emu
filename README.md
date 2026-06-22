@@ -25,17 +25,18 @@
 | :--- | :--- |
 | **Data Transfer** | `MOV`, `PUSH`, `POP`, `PUSHF`, `POPF` |
 | **Arithmetic** | `ADD`, `ADC`, `SUB`, `SBB`, `MUL`, `IMUL`, `INC`, `DEC`, `NEG`, `CMP` |
-| **Logical** | `AND`, `OR` |
+| **Logical** | `AND`, `OR`, `XOR`, `NOT` |
+| **Shift & Rotate** | `SHL`/`SAL`, `SHR`, `SAR`, `ROL`, `ROR` |
 | **Control Flow** | `JMP`, `JZ`/`JE`, `JNZ`/`JNE`, `LOOP`, `HLT` |
 
 ### ⚠️ Not Yet Supported | تعليمات غير مدعومة بعد
 - `CALL` / `RET` (Procedures)
-- `DIV` / `IDIV`
-- `XOR`, `NOT`
-- `TEST`
-- `SHL`, `SHR`, `ROL`, `ROR`
+- `DIV` / `IDIV` (Division)
+- `TEST` (Logical comparison)
+- `RCL` / `RCR` (Rotate through carry)
 - `INT` (Interrupts)
 - Port I/O (`IN`, `OUT`)
+- String Operations (`MOVS`, `CMPS`, etc.)
 
 ---
 
