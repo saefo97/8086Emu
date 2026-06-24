@@ -1,4 +1,4 @@
-# 🚀 8086Emu Pro - Ultimate Intel 8086 CPU Simulator
+# 🚀 8086Emu Pro - Elite Intel 8086 CPU Simulator
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Assembler](https://img.shields.io/badge/8086-Assembly-green?style=for-the-badge&logo=cpu-z&logoColor=white)](https://en.wikipedia.org/wiki/Intel_8086)
