@@ -1,68 +1,92 @@
 # 🚀 8086Emu Pro - Elite Intel 8086 CPU Simulator
 
-[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
-[![Assembler](https://img.shields.io/badge/8086-Assembly-green?style=for-the-badge&logo=cpu-z&logoColor=white)](https://en.wikipedia.org/wiki/Intel_8086)
+<div align="center">
 
-**8086Emu Pro** is a high-performance, visually immersive simulator for the Intel 8086 microprocessor. Designed with a premium aesthetic and multi-lingual support, it provides a professional environment for writing, debugging, and analyzing 16-bit assembly code.
+![App Header](https://img.shields.io/badge/Architecture-16--bit-red?style=for-the-badge&logo=cpu-z)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Assembler](https://img.shields.io/badge/8086-Assembly-green?style=for-the-badge&logo=intel)
+![Privacy](https://img.shields.io/badge/Privacy-100%25_Offline-brightgreen?style=for-the-badge&logo=shield)
 
-**8086Emu Pro** هو محاكي عالي الأداء وغامر بصرياً لمعالج Intel 8086. تم تصميمه بجمالية احترافية ودعم متعدد اللغات، ليوفر بيئة متكاملة لكتابة وتصحيح وتحليل كود الأسمبلي 16-بت.
-
----
-
-## 🌟 Key Features | الميزات الرئيسية
-
-- **📝 Advanced Editor**: High-visibility editor with auto-assembly logic and interactive line navigation.
-- **⚡ Pro Simulation**: Real-time execution with **Step Forward**, **Step Back (Reverse Debugging)**, and **Run All**.
-- **🎯 Smart Examples**: A library of 20+ categorized assembly programs with search and one-click loading.
-- **🖥️ Precise Architecture**: Full 16-bit registers (AX, BX, CX, DX) with H/L byte splitting and real-time Flag monitoring (AF, PF, CF, ZF, SF, OF).
-- **📊 Memory Management**: Supports `DB` (Define Byte) and `DW` (Define Word) directives for direct memory allocation.
-- **🌍 Global Ready**: Full localization for **English, Arabic, German, French, and Russian**.
-- **🎨 Elite Theming**: 8 Premium app themes (Cyberpunk, Matrix, OLED, Nord, Light, etc.) and multiple editor themes.
+</div>
 
 ---
 
-## 🛠️ Instruction Set Support | التعليمات المدعومة
+### 📖 Professional Overview | نظرة عامة احترافية
 
-| Category | Instructions |
-| :--- | :--- |
-| **Data Transfer** | `MOV`, `PUSH`, `POP`, `PUSHF`, `POPF` |
-| **Arithmetic** | `ADD`, `ADC`, `SUB`, `SBB`, `MUL`, `IMUL`, `DIV`, `IDIV`, `INC`, `DEC`, `NEG`, `CMP` |
-| **Logical** | `AND`, `OR`, `XOR`, `NOT` |
-| **Shift & Rotate** | `SHL`/`SAL`, `SHR`, `SAR`, `ROL`, `ROR` |
-| **Control Flow** | `JMP`, `JZ`/`JE`, `JNZ`/`JNE`, `LOOP`, `HLT` |
-| **Data Directives** | `DB` (Define Byte), `DW` (Define Word) |
+**English:**  
+**8086Emu Pro** is a pinnacle of computer architecture simulation, meticulously engineered for software enthusiasts and engineering students. It provides a high-fidelity, visually immersive environment to master the Intel 8086 microprocessor, featuring professional-grade debugging tools, real-time register monitoring, and a premium multi-lingual interface.
 
-### ⚠️ Not Yet Supported | تعليمات غير مدعومة بعد
-- `CALL` / `RET` (Procedures & Subroutines)
-- `INT` (Software Interrupts)
-- `IN` / `OUT` (Port I/O Operations)
-- `MOVS`, `CMPS`, `SCAS`, `LODS`, `STOS` (String Operations)
+**العربية:**  
+يُعد **8086Emu Pro** قمة في هندسة محاكاة بنية الحاسوب، حيث تم تصميمه بدقة متناهية لعشاق البرمجيات وطلاب الهندسة. يوفر التطبيق بيئة غامرة بصرياً وعالية الدقة لإتقان معالج Intel 8086، مع أدوات تصحيح أخطاء احترافية، ومراقبة فورية للسجلات، وواجهة نخبوية تدعم لغات متعددة.
 
 ---
 
-## 🔒 Privacy Policy | سياسة الخصوصية
+## 🌟 Elite Features | الميزات النخبوية
 
-### English
-Your privacy is our priority. **8086Emu Pro** is a fully offline application.
-1. **No Data Collection**: We do not collect, store, or share any personal information.
-2. **Local Processing**: All assembly code and simulation data are processed locally on your device.
-3. **No Tracking**: There are no third-party trackers or analytics embedded in the app.
+- **📝 Pro Editor | محرر احترافي**: 
+  - *EN:* Advanced code editor with syntax highlighting (visual hints) and real-time assembly.
+  - *AR:* محرر أكواد متقدم مع تمييز بصري وتجميع فوري للأوامر.
+- **⚡ Dynamic Simulation | محاكاة ديناميكية**: 
+  - *EN:* Step-by-step execution with **Forward/Reverse debugging** and full program "Run All" mode.
+  - *AR:* تنفيذ خطوة بخطوة مع خاصية **التصحيح الأمامي والعكسي** ووضع التشغيل الكامل للبرنامج.
+- **🖥️ Architecture Fidelity | دقة البنية**: 
+  - *EN:* Full 16-bit register tracking, automated Flag management, and real-time physical address calculation.
+  - *AR:* تتبع كامل للسجلات 16-بت، إدارة آلية للأعلام، وحساب فوري للعناوين الفيزيائية.
+- **🎯 Smart Examples | أمثلة ذكية**: 
+  - *EN:* Pre-loaded library of complex algorithms (Factorials, Array Sorting, Math) ready for one-click loading.
+  - *AR:* مكتبة مدمجة لخوارزميات معقدة (المضروب، فرز المصفوفات، الرياضيات) جاهزة للتحميل بنقرة واحدة.
+- **🌍 Global Localization | عالمي بالكامل**: 
+  - *EN:* Native support for **English, Arabic, German, French, and Russian**.
+  - *AR:* دعم أصلي للغات **الإنجليزية، العربية، الألمانية، الفرنسية، والروسية**.
+- **🎨 Premium Theming | سمات بريميوم**: 
+  - *EN:* 8 Elite visual themes (Cyberpunk, Matrix, OLED, Nord) and high-fidelity animations.
+  - *AR:* 8 سمات بصرية نخبوية (سايبر بانك، ماتريكس، إلخ) مع رسوم متحركة عالية الدقة.
 
-### العربية
-خصوصيتك هي أولويتنا. **8086Emu Pro** هو تطبيق يعمل بالكامل بدون اتصال بالإنترنت.
-1. **لا جمع للبيانات**: نحن لا نجمع أو نخزن أو نشارك أي معلومات شخصية.
-2. **معالجة محلية**: يتم معالجة جميع أكواد الأسمبلي وبيانات المحاكاة محلياً على جهازك فقط.
-3. **لا تتبع**: لا توجد أدوات تتبع من جهات خارجية أو تحليلات مدمجة في التطبيق.
+---
+
+## 🛡️ Privacy Policy | سياسة الخصوصية
+
+**8086Emu Pro** is committed to providing a secure and private experience. | يلتزم **8086Emu Pro** بتوفير تجربة آمنة وخصوصية كاملة.
+
+### 🔒 Data Handling | التعامل مع البيانات
+- **EN: 100% Offline:** The application operates entirely without an internet connection. 
+- **AR: أوفلاين 100%:** يعمل التطبيق بالكامل بدون الحاجة لاتصال بالإنترنت.
+- **EN: No Collection:** We do not collect, store, or transmit any user data, assembly code, or personal information.
+- **AR: لا جمع للبيانات:** نحن لا نجمع أو نخزن أو ننقل أي بيانات للمستخدم أو أكواد البرمجة أو المعلومات الشخصية.
+- **EN: Local Processing:** All simulations and calculations are performed locally on your device hardware.
+- **AR: معالجة محلية:** يتم إجراء جميع عمليات المحاكاة والحسابات محلياً على جهازك فقط.
+
+### 🚫 No Tracking | لا يوجد تتبع
+- **EN:** No third-party analytics, no tracking pixels, and no advertisements.
+- **AR:** لا توجد أدوات تحليل من جهات خارجية، ولا بكسلات تتبع، ولا إعلانات.
+
+---
+
+## 🛠️ Instruction Set Support | دعم مجموعة التعليمات
+
+| Category | النوع | Instructions | التعليمات |
+| :--- | :--- | :--- | :--- |
+| **📦 Data Transfer** | **نقل البيانات** | `MOV`, `PUSH`, `POP`, `XCHG`, `LEA`, `LDS`, `LES`, `XLAT`, `LAHF`, `SAHF`, `PUSHF`, `POPF` |
+| **🧮 Arithmetic** | **الحساب** | `ADD`, `ADC`, `SUB`, `SBB`, `MUL`, `IMUL`, `DIV`, `IDIV`, `INC`, `DEC`, `NEG`, `CMP`, `CBW`, `CWD`, `AAA`, `AAS`, `AAM`, `AAD`, `DAA`, `DAS` |
+| **🧠 Logical** | **المنطق** | `AND`, `OR`, `XOR`, `NOT`, `TEST` |
+| **🔄 Shift & Rotate** | **الإزاحة والتدوير** | `SHL`/`SAL`, `SHR`, `SAR`, `ROL`, `ROR`, `RCL`, `RCR` |
+| **🧵 String Ops** | **السلاسل** | `MOVS`, `CMPS`, `SCAS`, `LODS`, `STOS`, `REP`/`REPE`/`REPZ`/`REPNE`/`REPNZ` |
+| **⚙️ Processor Control**| **التحكم بالمعالج** | `STC`, `CLC`, `CMC`, `STD`, `CLD`, `STI`, `CLI`, `HLT`, `NOP`, `WAIT`, `ESC`, `LOCK` |
+| **🕹️ Flow Control** | **التحكم بالتدفق** | `JMP`, `CALL`, `RET`, `JZ`/`JE`, `JNZ`/`JNE`, `JA`/`JAE`, `JB`/`JBE`, `JG`/`JGE`, `JL`/`JLE`, `LOOP`, `INT`, `IRET` |
+| **💾 Directives** | **التوجيهات** | `DB` (Define Byte), `DW` (Define Word) |
 
 ---
 
 ## 👨‍💻 Developed By | المطور
 
-**Mohamad Mujahed Jesri**
+**Mohamad Mujahed Jesri | محمد مجاهد جسري**  
+*Software Engineer & Systems Architect*
 - 📧 [saefomomo@gmail.com](mailto:saefomomo@gmail.com)
 - 🌐 [Portfolio](https://mohamad-mujahed-jesri.netlify.app/)
 - 💬 [WhatsApp](https://wa.me/963967126407)
 
 ---
 
-*Engineered with precision for the assembly community.*
+<div align="center">
+  <i>Engineered with precision for the global assembly community. | صُمم بدقة لمجتمع مبرمجي الأسمبلي حول العالم.</i>
+</div>
