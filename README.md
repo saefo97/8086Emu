@@ -23,9 +23,12 @@
 
 ## 🌟 Elite Features | الميزات النخبوية
 
+- **✨ Premium Splash Screen | شاشة بداية فاخرة**:
+  - *EN:* Theme-responsive animated splash with circuit graphics and a seamless power-up transition.
+  - *AR:* شاشة بداية متحركة متفاعلة مع الثيم مع رسومات دوائر إلكترونية وانتقال سلس.
 - **📝 Pro Editor | محرر احترافي**: 
-  - *EN:* Advanced code editor with syntax highlighting (visual hints) and real-time assembly.
-  - *AR:* محرر أكواد متقدم مع تمييز بصري وتجميع فوري للأوامر.
+  - *EN:* Advanced code editor with **Character-level precise navigation** and real-time assembly.
+  - *AR:* محرر أكواد متقدم مع **تنقل دقيق على مستوى الحرف** وتجميع فوري للأوامر.
 - **⚡ Dynamic Simulation | محاكاة ديناميكية**: 
   - *EN:* Step-by-step execution with **Forward/Reverse debugging** and full program "Run All" mode.
   - *AR:* تنفيذ خطوة بخطوة مع خاصية **التصحيح الأمامي والعكسي** ووضع التشغيل الكامل للبرنامج.
@@ -33,14 +36,14 @@
   - *EN:* Full 16-bit register tracking, automated Flag management, and real-time physical address calculation.
   - *AR:* تتبع كامل للسجلات 16-بت، إدارة آلية للأعلام، وحساب فوري للعناوين الفيزيائية.
 - **🎯 Smart Examples | أمثلة ذكية**: 
-  - *EN:* Pre-loaded library of complex algorithms (Factorials, Array Sorting, Math) ready for one-click loading.
-  - *AR:* مكتبة مدمجة لخوارزميات معقدة (المضروب، فرز المصفوفات، الرياضيات) جاهزة للتحميل بنقرة واحدة.
+  - *EN:* Pre-loaded library of complex algorithms (Factorials, Array Summation, Logic) with unified premium UI.
+  - *AR:* مكتبة مدمجة لخوارزميات معقدة (المضروب، جمع المصفوفات، المنطق) مع واجهة مستخدم موحدة وفخمة.
 - **🌍 Global Localization | عالمي بالكامل**: 
   - *EN:* Native support for **English, Arabic, German, French, and Russian**.
   - *AR:* دعم أصلي للغات **الإنجليزية، العربية، الألمانية، الفرنسية، والروسية**.
-- **🎨 Premium Theming | سمات بريميوم**: 
-  - *EN:* 8 Elite visual themes (Cyberpunk, Matrix, OLED, Nord) and high-fidelity animations.
-  - *AR:* 8 سمات بصرية نخبوية (سايبر بانك، ماتريكس، إلخ) مع رسوم متحركة عالية الدقة.
+- **🎨 Elite Responsive Design | تصميم متجاوب نخبوياً**: 
+  - *EN:* Full tablet support with adaptive font sizes and 8 high-fidelity premium themes.
+  - *AR:* دعم كامل للتابلت مع أحجام خطوط متكيفة و 8 سمات بصرية فاخرة.
 
 ---
 
