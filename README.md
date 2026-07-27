@@ -22,49 +22,26 @@
 
 ---
 
-## 🌟 Pro & Free Features | الميزات المجانية والمحترفة
+## 🌟 Advanced Simulation Features | ميزات المحاكاة المتقدمة
 
-### 💎 Pro Version (Lifetime Unlock) | نسخة البرو (فتح مدى الحياة)
-- **🚫 Ad-Free Experience:** Remove all Banner and Interstitial advertisements for uninterrupted learning.
-- **🔓 Full Example Library:** Unlock access to all advanced assembly algorithms (Sorting, Searching, Matrix Ops).
-- **🎨 Premium Themes:** Access to exclusive high-fidelity developer themes (Tokyo Night, Catppuccin, Nord, and OLED Pro).
-- **⚡ Performance Boost:** Higher execution speeds and prioritized system resources for complex simulations.
-- **🛠️ Professional Branding:** Custom 'Pro' gold badge and dynamic app identity.
-
-### 🆓 Standard Features | الميزات الأساسية (المجانية)
-- **📝 Precision Editor:** Advanced code editor with character-level navigation and real-time assembly.
-- **⚡ Dynamic Simulation:** Step-by-step execution with Forward/Reverse debugging and "Run All" mode.
-- **🖥️ Architecture Fidelity:** Full 16-bit register tracking, automated Flag management, and physical address calculation.
-- **🌍 Global Localization:** Native support for English, Arabic, German, French, and Russian.
-- **🎯 Educational Samples:** Access to foundational assembly examples (Addition, Subtraction, Logic).
+### 🖥️ Virtual Architecture | بنية افتراضية كاملة
+- **16-Bit Precision:** Full emulation of General Purpose (AX, BX, CX, DX), Index (SI, DI), and Pointer (BP, SP) registers.
+- **Segmented Memory:** 1MB addressable memory space with CS, DS, SS, and ES management.
+- **Flag Management:** Real-time monitoring of all system flags (Carry, Zero, Sign, Overflow, etc.).
+- **Stack Visualization:** Dedicated viewer for the system stack with real-time push/pop tracking.
+- **Memory Viewer:** Inspect and modify any memory cell with hex/ASCII views and address jumping.
+- **Virtual Console:** Support for standard I/O interrupts for character and string output.
+- **Step-by-Step Debugging:** Execute instruction by instruction with full execution history.
 
 ---
 
-## 🛡️ Privacy Policy | سياسة الخصوصية
+## 💎 Pro & Free Versions | النسخة المجانية والمحترفة
 
-**Effective Date: July 4, 2026**
-
-**8086 EMU Pro** is committed to providing a secure and private experience. Below is our transparent data handling policy:
-
-### 1. Data Collection | جمع البيانات
-- **EN:** We **do not collect** any personal information, assembly code, or simulation data. All processing is strictly local to your device.
-- **AR:** نحن **لا نجمع** أي معلومات شخصية، أو أكواد برمجية، أو بيانات محاكاة. جميع العمليات تتم محلياً على جهازك فقط.
-
-### 2. Advertisements | الإعلانات
-- **EN:** The free version uses **Google AdMob** to display advertisements. AdMob may collect and use device identifiers to personalize ads.
-- **AR:** تستخدم النسخة المجانية خدمة **Google AdMob** لعرض الإعلانات. قد تقوم AdMob بجمع واستخدام معرفات الأجهزة لتخصيص الإعلانات.
-- **EN:** Pro users enjoy a 100% ad-free experience with zero ad-related data tracking.
-- **AR:** يتمتع مستخدمو نسخة البرو بتجربة خالية تماماً من الإعلانات ومن أي تتبع متعلق بها.
-
-### 3. Permissions | الصلاحيات
-- **Internet:** Required to load advertisements (Free version) and process In-App Purchases.
-- **AD_ID:** Required by Google Mobile Ads to provide non-personalized or personalized ads (Android 13+).
-- **Network State:** Used to check connectivity for a smoother ad loading experience.
-
-### 4. Third-Party Services | خدمات الطرف الثالث
-We use the following services which may collect data according to their own policies:
-- **Google Mobile Ads (AdMob)**
-- **Google Play In-App Billing**
+### 🏆 Pro Version (Lifetime Unlock)
+- **🚫 Ad-Free:** Complete removal of all Banner and Interstitial ads.
+- **🔓 Algorithm Library:** Access to advanced samples (Sorting, Searching, Matrix Ops).
+- **🎨 Premium Themes:** Exclusive high-fidelity developer themes.
+- **⚡ Pro Priority:** Optimized performance and premium app identity.
 
 ---
 
@@ -72,13 +49,14 @@ We use the following services which may collect data according to their own poli
 
 | Category | Instructions |
 | :--- | :--- |
-| **Data Transfer** | `MOV`, `PUSH`, `POP`, `XCHG`, `LEA`, `LDS`, `LES`, `XLAT`, `LAHF`, `SAHF`, `PUSHF`, `POPF` |
+| **Data Transfer** | `MOV`, `PUSH`, `POP`, `XCHG`, `LEA`, `LDS`, `LES`, `XLAT`, `LAHF`, `SAHF`, `PUSHF`, `POPF`, `IN`, `OUT` |
 | **Arithmetic** | `ADD`, `ADC`, `SUB`, `SBB`, `MUL`, `IMUL`, `DIV`, `IDIV`, `INC`, `DEC`, `NEG`, `CMP`, `CBW`, `CWD`, `AAA`, `AAS`, `AAM`, `AAD`, `DAA`, `DAS` |
 | **Logical** | `AND`, `OR`, `XOR`, `NOT`, `TEST` |
 | **Shift/Rotate**| `SHL`/`SAL`, `SHR`, `SAR`, `ROL`, `ROR`, `RCL`, `RCR` |
 | **String Ops** | `MOVS`, `CMPS`, `SCAS`, `LODS`, `STOS`, `REP`/`REPE`/`REPZ`/`REPNE`/`REPNZ` |
 | **Processor** | `STC`, `CLC`, `CMC`, `STD`, `CLD`, `STI`, `CLI`, `HLT`, `NOP`, `WAIT`, `ESC`, `LOCK` |
-| **Flow Control**| `JMP`, `CALL`, `RET`, `JZ`/`JE`, `JNZ`/`JNE`, `JA`/`JAE`, `JB`/`JBE`, `JG`/`JGE`, `JL`/`JLE`, `LOOP`, `INT`, `IRET` |
+| **Flow Control**| `JMP`, `CALL`, `RET`, `JZ`/`JE`, `JNZ`/`JNE`, `JA`/`JAE`, `JB`/`JBE`, `JG`/`JGE`, `JL`/`JLE`, `LOOP`, `LOOPE`, `LOOPNE`, `JCXZ`, `INT`, `INTO`, `IRET` |
+| **Directives** | `DB`, `DW`, Labels, Strings |
 
 ---
 
