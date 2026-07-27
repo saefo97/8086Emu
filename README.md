@@ -24,24 +24,35 @@
 
 ## 🌟 Advanced Simulation Features | ميزات المحاكاة المتقدمة
 
-### 🖥️ Virtual Architecture | بنية افتراضية كاملة
-- **16-Bit Precision:** Full emulation of General Purpose (AX, BX, CX, DX), Index (SI, DI), and Pointer (BP, SP) registers.
-- **Segmented Memory:** 1MB addressable memory space with CS, DS, SS, and ES management.
-- **Flag Management:** Real-time monitoring of all system flags (Carry, Zero, Sign, Overflow, etc.).
-- **Stack Visualization:** Dedicated viewer for the system stack with real-time push/pop tracking.
-- **Memory Viewer:** Inspect and modify any memory cell with hex/ASCII views and address jumping.
-- **Virtual Console:** Support for standard I/O interrupts for character and string output.
-- **Step-by-Step Debugging:** Execute instruction by instruction with full execution history.
+### 🖥️ Virtual Architecture | البنية الافتراضية
+- **16-Bit Precision:** Full emulation of General Purpose (AX, BX, CX, DX), Index (SI, DI), and Pointer (BP, SP) registers.  
+  **دقة 16 بت:** محاكاة كاملة للسجلات العامة (AX, BX, CX, DX)، وسجلات الفهرسة (SI, DI)، والمؤشرات (BP, SP).
+- **Segmented Memory:** 1MB addressable memory space with CS, DS, SS, and ES management.  
+  **الذاكرة المقسمة:** مساحة ذاكرة قابلة للعنونة تصل إلى 1 ميجابايت مع إدارة كاملة لسجلات المقاطع (CS, DS, SS, ES).
+- **Flag Management:** Real-time monitoring of all system flags (Carry, Zero, Sign, Overflow, etc.).  
+  **إدارة الأعلام:** مراقبة فورية لجميع أعلام النظام (Carry, Zero, Sign, Overflow، إلخ).
+- **Stack Visualization:** Dedicated viewer for the system stack with real-time push/pop tracking.  
+  **تصوير المكدس:** عرض مخصص لمكدس النظام مع تتبع عمليات الدفع (Push) والسحب (Pop) في الوقت الفعلي.
+- **Memory Viewer:** Inspect and modify any memory cell with hex/ASCII views and address jumping.  
+  **عرض الذاكرة:** فحص وتعديل أي خلية ذاكرة مع عرض بالصيغة الست عشرية (Hex) ورموز ASCII، مع ميزة القفز للعناوين.
+- **Virtual Console:** Support for standard I/O interrupts for character and string output.  
+  **الكونسول الافتراضي:** دعم مقاطعات الإدخال والإخراج القياسية لإخراج الحروف والنصوص.
+- **Step-by-Step Debugging:** Execute instruction by instruction with full execution history.  
+  **تصحيح الأخطاء خطوة بخطوة:** تنفيذ التعليمات واحدة تلو الأخرى مع سجل كامل لتاريخ التنفيذ.
 
 ---
 
 ## 💎 Pro & Free Versions | النسخة المجانية والمحترفة
 
-### 🏆 Pro Version (Lifetime Unlock)
-- **🚫 Ad-Free:** Complete removal of all Banner and Interstitial ads.
-- **🔓 Algorithm Library:** Access to advanced samples (Sorting, Searching, Matrix Ops).
-- **🎨 Premium Themes:** Exclusive high-fidelity developer themes.
-- **⚡ Pro Priority:** Optimized performance and premium app identity.
+### 🏆 Pro Version (Lifetime Unlock) | نسخة البرو (فتح مدى الحياة)
+- **🚫 Ad-Free:** Complete removal of all Banner and Interstitial ads.  
+  **خالٍ من الإعلانات:** إزالة كاملة لجميع الإعلانات المنبثقة والشريطية.
+- **🔓 Algorithm Library:** Access to advanced samples (Sorting, Searching, Matrix Ops).  
+  **مكتبة الخوارزميات:** الوصول إلى أمثلة متقدمة (الفرز، البحث، عمليات المصفوفات).
+- **🎨 Premium Themes:** Exclusive high-fidelity developer themes.  
+  **سمات مميزة:** قوالب حصرية عالية الدقة مصممة للمطورين.
+- **⚡ Pro Priority:** Optimized performance and premium app identity.  
+  **أولوية البرو:** أداء محسن وهوية تطبيق متميزة.
 
 ---
 
